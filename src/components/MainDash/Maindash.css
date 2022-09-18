@@ -1,0 +1,21 @@
+.MainDash {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* RESPONSIVENESS */
+
+@media screen and (max-width: 1200px) {
+    .MainDash {
+        justify-content: flex-start;
+        margin-top: 2rem;
+        gap: 1.5rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .Cards {
+        width: 90%;
+    }
+}
